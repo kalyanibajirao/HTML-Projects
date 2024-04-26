@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #000000;
+}
+
+/* Navbar Styles */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fcaf02;
+  padding: 10px 20px;
+}
+
+.navbar .logo {
+  color: #000000;
+  font-weight: bold;
+}
+
+.navbar .nav-links {
+  list-style: none;
+}
+
+.navbar .nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar .nav-links li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/* Intro Section Styles */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  color: #ffffff;
+}
+
+.intro .intro-content h1 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39.01px;
+}
+
+.intro button {
+  background-color: #fcaf02;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 500px;
+}
+
+.intro img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact Us Section Styles */
+.contact {
+  padding: 50px;
+  color: #fcaf02;
+  gap: 20px;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #fcaf02;
+  border-radius: 500px;
+  outline: none;
+  background-color: #000000;
+  margin-top: 4px;
+}
+
+.contact span {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+  border-color: #fcaf02;
+}
+
+.contact button {
+  background-color: #fcaf02;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 500px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Table Section Styles */
+.table {
+  padding: 50px;
+  justify-content: center;
+}
+
+.table table {
+  width: 100%;
+  color: #fcaf02;
+  border-top: 1px solid #fcaf02;
+  border-bottom: 1px solid #fcaf02;
+}
+
+.table th {
+  padding: 10px 20px;
+  border-bottom: 1px solid #fcaf02;
+  border-left: 1px solid #fcaf02;
+  border-right: 1px solid #fcaf02;
+}
+.table td,tr {
+  padding: 10px 20px;
+  border-left: 1px solid #fcaf02;
+  border-right: 1px solid #fcaf02;
+ 
+}
+
+.table tfoot {
+  font-weight: bold;
+  background-color: #fcaf02;
+  color: #000000;
+}
